@@ -1,0 +1,11 @@
+#dados-login p {
+	width: 230px !important;
+}
+
+#identificacao-sistema{
+	width:70% !important;
+}
+
+input[name=paginaAtual] {    
+margin-bottom: 3px;
+} 

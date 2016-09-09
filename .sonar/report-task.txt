@@ -1,0 +1,5 @@
+projectKey=mapa-gustavo
+serverUrl=http://localhost:9000/sonar
+dashboardUrl=http://localhost:9000/sonar/dashboard/index/mapa-gustavo
+ceTaskId=AVcPeLZq0GBEgY1KRBH0
+ceTaskUrl=http://localhost:9000/sonar/api/ce/task?id=AVcPeLZq0GBEgY1KRBH0

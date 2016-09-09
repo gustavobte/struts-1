@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.3//EN" "http://struts.apache.org/dtds/struts-config_1_3.dtd">
+
+<struts-config>
+
+	<form-beans>
+		<form-bean name="estabelecimentoForm" type="com.indra.form.EstabelecimentoForm" />
+	</form-beans>
+
+	<action-mappings>
+		<action path="/estabelecimento" type="com.indra.action.EstabelecimentoAction"
+			parameter="dispatch" name="estabelecimentoForm">
+			<forward name="pesquisar" path="/estabelecimento/pesquisar.jsp" />
+			<forward name="cadastrar" path="/estabelecimento/cadastrar.jsp" />
+		</action>
+	</action-mappings>
+
+	<message-resources parameter="null" />
+
+</struts-config>
